@@ -1,0 +1,25 @@
+{
+  "name": "learn-redux-npx",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "history": "^4.7.2",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "next",
+    "react-scripts": "1.1.4",
+    "react-transition-group": "^2.3.0",
+    "redux": "^3.7.2"
+  },
+  "scripts": {
+    "start": "react-scripts-with-stylus start src/styles/style.styl",
+    "build": "react-scripts-with-stylus build src/styles/style.styl",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "create-react-app-stylus": "^1.1.1"
+  }
+}
